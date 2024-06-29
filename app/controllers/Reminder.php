@@ -1,5 +1,5 @@
 <?php
-class reminders extends Controller{
+class Reminder extends Controller{
 public function index(){
 
 $reminder = $this->model('reminder');

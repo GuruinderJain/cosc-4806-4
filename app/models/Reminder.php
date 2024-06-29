@@ -1,6 +1,6 @@
 <?php
 
-class reminders {
+class Reminder {
 
   public function __construct() {
 
