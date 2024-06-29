@@ -7,5 +7,13 @@
               </div>
         </div>
     </div>
+    <p>
+
+        <?php foreach ($reminders as $reminder): ?>
+            <p>
+                <a href="/reminders/update/<?php echo $reminder['id']; ?>">Update</a>
+                <a href="/reminders/delete/<?php echo $reminder['id']; ?>">Delete</a>
+            </p>
+        <?php endforeach; ?>
 
     <?php require_once 'app/views/templates/footer.php' ?>
