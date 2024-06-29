@@ -13,6 +13,7 @@
             <p>
                 <a href="/reminders/update/<?php echo $reminder['id']; ?>">Update</a>
                 <a href="/reminders/delete/<?php echo $reminder['id']; ?>">Delete</a>
+                <a href="/reminders/create/<?php echo $reminder['id']; ?>">Create</a>
             </p>
         <?php endforeach; ?>
 
